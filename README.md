@@ -16,6 +16,8 @@ Skills Demonstrated:
 - Joining multiple datasets to combine COVID-19 case data with vaccination data.
 - Window functions for calculating running totals.
 - Common Table Expressions (CTEs) for organizing complex queries.
+
+  
 2. Nashville Housing Data Cleaning
 Overview
 This project involves cleaning and transforming Nashville housing data. The dataset contains property sales data that required standardization and normalization to make it suitable for analysis.
@@ -33,5 +35,21 @@ Skills Demonstrated:
 - Efficient use of CTEs for organizing query logic.
 These projects showcase my ability to handle real-world data challenges, from cleaning and preparing data to performing complex analyses and creating visualizations.
 
-Feel free to explore the SQL scripts provided in this repository, and let me know if you have any questions or feedback.
+
+3. NYC Taxi Trips & Weather Data Analysis
+Overview
+This project showcases various SQL queries and analyses performed on a dataset containing NYC taxi trips and corresponding weather data. The goal is to demonstrate SQL skills and analyzing the impact of external factors (like weather) on taxi fare amounts.
+
+Key Queries and Insights:
+- Total Trips and Fare Analysis by Payment Type:
+- Yearly Trends in Taxi Trips:
+- Impact of Weather Conditions on Fare Amounts:
+- Analyzed how weather conditions impact the tipping behavior of passengers.
+Skills Demonstrated:
+- Data Aggregation and Filtering
+- Date and Time Functions
+- Table Joins and Relationships
+- Subqueries and Common Table Expressions (CTEs)
+Additional Experience:
+- This project was developed using Dremio, a data lakehouse platform, allowing the exploration of new capabilities and insights unique to this cutting-edge technology. Working with Dremio provided valuable experience in handling large-scale data and utilizing advanced features of a modern data lakehouse.
 
