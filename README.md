@@ -1,6 +1,6 @@
 # SQL-Portfolio
 SQL Portfolio Projects
-This repository contains SQL projects that demonstrate my data exploration, manipulation, and visualization skills. The two main projects included are:
+This repository contains SQL projects that demonstrate my data exploration, manipulation, and visualization skills. The main projects included are:
 
 1. COVID-19 Data Exploration and Visualization
 Overview
