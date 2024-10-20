@@ -40,11 +40,7 @@ ORDER BY fraud_count;
 SELECT 
     LEFT(CAST(amount AS VARCHAR), 1) AS leading_digit, 
     COUNT(*) AS frequency
-FROM 
-    FraudDatabase
-WHERE 
-    amount > 0 AND isFraud = 1  
-GROUP BY 
-    LEFT(CAST(amount AS VARCHAR), 1)
-ORDER BY 
-    leading_digit;
+FROM FraudDatabase
+WHERE amount > 0 AND isFraud = 1  
+GROUP BY LEFT(CAST(amount AS VARCHAR), 1)
+ORDER BY leading_digit;
