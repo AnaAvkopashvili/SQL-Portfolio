@@ -57,3 +57,28 @@ Skills Demonstrated:
 Additional Experience:
 - This project was developed using Dremio, a data lakehouse platform, allowing the exploration of new capabilities and insights unique to this cutting-edge technology. Working with Dremio provided valuable experience in handling large-scale data and utilizing advanced features of a modern data lakehouse.
 
+
+
+4.Fraud Detection Dashboard and SQL Queries
+Overview
+This project focuses on detecting financial fraud using various SQL queries on a fraud detection dataset. The queries analyze patterns in customer transactions, transaction types, amounts, and fraud timing, offering insights into fraudulent behavior. Additionally, Benford's Law is applied to detect anomalies in transaction amounts.
+
+Queries Breakdown
+Top Flagged Customers by Transaction Amount
+This query identifies the top 10 customers with the highest total transaction amounts, helping to flag high-risk individuals for further investigation.
+
+Fraud by Transaction Type
+This query analyzes fraudulent transactions based on their type (e.g., CASH_OUT, PAYMENT), providing insights into which transaction types are more prone to fraud.
+
+Fraud Detection Based on Transaction Amount
+This query investigates the relationship between transaction amounts and fraud, identifying specific amounts that are most frequently associated with fraudulent behavior.
+
+Average Transaction Amount (Fraudulent vs. Non-Fraudulent)
+This query calculates and compares the average transaction amounts for both fraudulent and non-fraudulent transactions, highlighting key differences.
+
+Fraud Count by Hour of Day
+This query examines the frequency of fraudulent transactions across different hours of the day, allowing for the identification of time-based fraud patterns.
+
+Benford's Law for Fraud Detection
+Benford's Law is applied to the leading digits of transaction amounts for fraudulent transactions, helping to detect suspicious patterns that deviate from expected norms.
+
